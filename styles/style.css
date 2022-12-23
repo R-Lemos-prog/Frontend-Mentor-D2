@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+.ponteiro {
+  cursor: pointer;
+}
+
+body {
+  background-color: #e0e8ff;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: white;
+  width: 26vw;
+  height: 540px;
+  margin: 60px auto;
+  border-radius: 12px;
+  font-family: "Red Hat Display", sans-serif;
+  box-shadow: 0px 20px 20px #7280a742;
+  text-align: center;
+}
+
+#illus {
+  width: 26vw;
+  height: 176px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#texto {
+  margin: 28px;
+}
+
+#texto > p {
+  margin: 6px;
+  line-height: 134%;
+}
+
+#plano {
+  width: 20vw;
+  padding: 10px;
+  background-color: #f5f7ff;
+  border-radius: 12px;
+  margin: 22px 0px;
+  padding: 16px;
+  padding-bottom: 6px;
+}
+
+h3 {
+  background-color: #3829e0;
+  width: 20.5vw;
+  padding: 13px;
+  border-radius: 12px;
+  box-shadow: 0px 16px 20px #7280a742;
+  margin-bottom: 22px;
+}
+
+h3:active {
+  background-color: #3829e093;
+}
+
+.fonte-escura {
+  color: #1f2f56;
+}
+
+.fonte-media {
+  color: #7280a7;
+}
+
+.fonte-clara {
+  color: #f5f7ff;
+}
+
+.fonte-brilhante {
+  color: #3829e0;
+}
+
+.normal {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+.fonte-grande {
+  font-size: 22px;
+}
+
+.fonte-intermediaria {
+  font-size: 16px;
+}
+
+.fonte-pequena {
+  font-size: 13.5px;
+}
+
+#icon-music {
+  float: left;
+}
+
+.deslocamentoE {
+  position: relative;
+  right: 44px;
+}
+
+#change {
+  display: block;
+  position: relative;
+  bottom: 26px;
+  left: 76px;
+  text-decoration: underline;
+}
+
+#change:active {
+  color: #3829e093;
+  text-decoration: none;
+}
+
+#cancel:active {
+  color: #1f2f56;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 400px) {
+  main {
+    width: 85vw;
+  }
+
+  #illus {
+    width: 85vw;
+  }
+
+  #plano,
+  h3 {
+    width: 61vw;
+  }
+
+  .fonte-grande {
+    font-size: 22px;
+  }
+
+  .fonte-intermediaria {
+    font-size: 14px;
+  }
+
+  .fonte-pequena {
+    font-size: 14.5px;
+  }
+
+  .deslocamentoE {
+    right: 38px;
+  }
+
+  #change {
+    left: 70px;
+    font-size: 13.5px;
+  }
+}
